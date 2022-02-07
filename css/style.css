@@ -1,0 +1,38 @@
+body {
+   
+    background-color: rgb(209, 209, 51);
+    background-image: url("images/back-ground_img.jpg");
+}
+
+table {
+    border: solid; 
+    margin: 0px auto;
+    width: 50%;
+}
+
+h1{
+    margin: 55px; 
+    text-align: center;
+    font-size: 100px;
+}
+
+th{
+    border: 1px solid black ;
+}
+
+tr {
+    outline: thin solid ;
+}
+
+td {
+    font-size: x-large;
+}
+
+.content {
+    text-align: center;
+    outline: thin solid;
+}
+
+/* #head-div {
+    background-image: url();
+} */
