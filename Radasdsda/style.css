@@ -1,0 +1,296 @@
+body {
+    background-color: black;
+    font-family: 'Comfortaa';
+    color: white;
+    width: 1280px;
+}
+
+
+
+h1 {
+    color: aqua;
+}
+
+.nav-bar {
+    text-align: center;
+    padding-left: 450px;
+}
+
+.header-img {
+    height: 400px;    
+    padding-right: 40px;
+    overflow: hidden;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  
+  }
+  
+  li {
+    float: left;
+    
+  }
+  
+  li a {
+    display: block;
+    padding: 18px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 30px; 
+    text-shadow: 2px 2px hsl(24, 91%, 44%);
+    text-decoration: none;
+
+  }
+
+  li a:hover {    
+    color: rgb(209, 107, 12);
+    text-shadow: 2px 2px white;
+  }
+
+  #header-img {
+      /* height: 600px; */
+      margin-top: -410px;
+      width: 1280px;
+      /* padding: 10px; */
+            
+  } 
+
+
+.header-info {
+    background: black;
+    color: white;
+    height: 400px;
+}
+
+.footer {
+    /* position:fixed; */
+    background-color: rgba(0, 0, 0, 0.068);
+    bottom:100px;
+    margin-top: 50px;
+    left:0;
+    right:0;
+    height:30px;
+    width: 1280px;
+}
+
+.contact a{
+    color: white;
+    text-decoration: none;
+}
+
+.contact a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+.footer-content {    
+    width: 640px;
+    float: left;
+    text-align: center;    
+}
+
+.footer-content pre{   
+    padding-top: 50px;
+    font-size: 15px;
+    font-family: 'Comfortaa';    
+}
+
+
+.centered {
+    font-size: 25px;
+    font-style: italic bold;
+    color: coral;
+    text-shadow: 2px 2px hsl(0, 15%, 94%);    
+    position: absolute;
+    top: 270px;
+    left: 689px;
+    transform: translate(-50%, -50%);
+  }
+
+.contact {  
+    width: 640px;
+    max-width: 650px;
+    text-align: center; 
+    float: right; 
+}
+
+#body-content {
+    max-width: 1200px;
+}
+
+#body-content p{
+   font-size: 13px;
+}
+
+.sec-2-wrapper {
+    width: 1280px;
+    height: 800px;
+    background-color: rgb(34, 31, 31);
+}
+
+
+.sec-3-wrapper {
+    width: 1280px;
+    height: 600px;
+}
+
+.sec-4-wrapper {
+    width: 1280px;
+    height: 800px;
+    background-color: rgb(34, 31, 31);
+}
+
+#section-2 {
+
+   float: left;
+   margin: 50px;
+   margin-top: 120px;
+   margin-left: 120px;
+   width: 1280px;
+   overflow: hidden;  
+   
+}
+
+#section-2 p {
+   font-size: 12px;
+   width: 241px;
+   padding-left: 15px;
+ }
+
+
+ #section-2 h3 {
+    padding-left: 15px;
+  }
+
+ #section-2 img {
+    margin-left: 14px;
+    margin-top: 10px;     
+}
+
+#section-3 {    
+   margin: 20px;
+   margin-top: 40px;
+   width: 1280px;  
+}
+
+#sec-3-lDiv {
+   float: left;
+   width: 609px;
+}
+
+#sec-3-lDiv p{
+    margin-left: -102px;
+    padding-left: 300px;
+    font-size: 14px;
+    margin-top: 158px;
+    text-align: justify;
+ }
+ 
+
+#sec-3-rDiv {
+    float: right;
+    width : 379px;
+    margin-top: 158px;
+ }
+
+ #sec-3-rDiv img {
+    float: right;
+    width: 505px;
+    margin-right: 131px;
+ }
+
+ #section-4 {    
+    float: left; 
+    margin-left: 200px;
+    margin-top: 125px;
+    margin-bottom: 140px;
+    width: 950px;
+    /* border-style: dashed ; */
+    /* border-color: white;
+    background-color: aqua; */
+ }
+
+ #section-4 img {    
+    /* float: left; 
+    margin-left: 200px;
+    margin-top: 190px;
+    margin-bottom: 140px; */
+    width: 360px;
+    /* border-style: dashed ; */
+    border-color: white;
+ }
+
+ #section-4 p{    
+    font-size: 15px;    
+ }
+
+ #s4_up {
+     margin: 10px;
+ }
+
+ #lft0 {
+     float: left;
+     margin: 10px;
+ }
+
+#img0 {
+    width: 325px;
+    height: 240px;
+    margin-right: 25px;
+    
+}
+
+#img1 {
+    width: 352px;
+    height: 220px;
+}
+
+ #p1,#img1 {
+     padding: 20px;
+ }
+
+#s4_mid {
+    height: 80px;
+}
+
+ #lft1 {
+    float: right;
+    width: 388px;
+}
+
+/* #sec-3-lDiv p {
+    margin-left: 100px;
+} */
+
+#p1 {
+    text-align: justify;
+}
+
+#p1 h2 {
+    padding-left: 431px;
+}
+
+
+#p0 {
+    text-align: justify;
+}
+
+
+#p0 h2 {
+    padding-top: 10px;
+    text-align: justify;
+}
+
+
+#did1,#did2,#did3 {
+    height : 450px;
+    box-shadow:  10px 5px 5px black;
+
+}
+
+

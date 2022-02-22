@@ -1,0 +1,180 @@
+body {
+    background-color: black;
+    font-family: 'Comfortaa';
+    color: white;
+    width: 1280px;
+}
+
+
+
+h1 {
+    color: aqua;
+}
+
+.nav-bar {
+    text-align: center;
+    padding-left: 450px;
+}
+
+.header-img {
+    height: 400px;   
+    padding-right: 40px;
+    overflow: hidden;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  
+  }
+  
+  li {
+    float: left;
+    
+  }
+  
+  li a {
+    display: block;
+    padding: 18px;
+    border: none;
+    background-color: black;
+    color: hsl(24, 91%, 44%);
+    font-size: 30px; 
+    text-shadow: 2px 2px hsl(20, 23%, 95%);
+    text-decoration: none;
+
+  }
+
+  li a:hover {    
+    color: hsl(20, 23%, 95%);
+    text-shadow: 2px 2px  hsl(24, 91%, 44%);
+  }
+
+
+  .header-img-wrapper {
+      background-color: rgb(224, 112, 8);
+  }
+
+
+
+  #header-img {
+      /* height: 600px; */
+      width: 1280px;
+      margin-top: -150px;
+      padding: 0px;
+      opacity: 0.5;
+            
+  }
+
+ 
+
+  #ptag {
+      color: aliceblue;
+  }
+
+
+.header-info {
+    background: black;
+    color: white;
+    height: 400px;
+}
+
+.footer {
+    /* position:fixed; */
+    background-color: rgba(0, 0, 0, 0.068);
+    bottom:100px;
+    margin-top: 50px;
+    left:0;
+    right:0;
+    height:30px;
+    width: 1280px;
+}
+
+#parent-div {
+    background-color: rgb(34, 31, 31);
+    height: 400px;
+}
+
+
+#not-found-msg {
+    font-size: 20px;
+    text-align: center;
+}
+
+.contact a{
+    color: white;
+    text-decoration: none;
+    
+}
+
+
+.footer-content {
+    text-align: center;   
+    width: 640px;
+    float: left;    
+}
+
+.footer-content pre{   
+    padding-top: 50px;
+    font-size: 15px; 
+    font-family: 'Comfortaa';    
+}
+
+
+.centered {
+    font-size: 25px;
+    font-style: italic bold;
+    color: rgb(19, 18, 17);   
+    position: absolute;
+    top: 287px;
+    left: 662px;
+    transform: translate(-50%, -50%);
+  }
+
+.contact {
+    /* display: inline-block; */
+    width: 640px;
+    max-width: 650px;
+     float: right; 
+     text-align: center;
+}
+
+#body-content {
+    max-width: 1200px;
+}
+
+#body-content p{
+   font-size: 13px;
+}
+
+#section-2 {
+    text-align: center;
+   float: left;
+   margin: 50px;
+   margin-top: 120px;
+   margin-left: 200px;
+   width: 1280px;
+   overflow: hidden;
+   /* border-style: dashed ;
+   border-color: white; */
+   
+}
+
+#section-2 p {
+   font-size: 20px;
+   width: 850px;
+   padding-left: 15px;
+ }
+
+
+ #section-2 h3 {
+    padding-left: 15px;
+  }
+
+ #section-2 img {
+    margin-left: 14px;
+     
+  }
+
