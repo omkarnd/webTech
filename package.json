@@ -1,0 +1,16 @@
+{
+  "name": "backend_application",
+  "version": "1.0.0",
+  "description": "sample_app",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon App.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "mongoose": "^6.2.10",
+    "nodemon": "^2.0.15"
+  }
+}
